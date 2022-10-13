@@ -100,14 +100,24 @@ div {
     width: 100%;
     border-radius: 8px;
 }
+.dark {
+    background: black;
+    color: white;
+}
 
+.dark .container {
+    background: grey;
+}
+.dark a {
+    color: #27296d;
+}
     </style>
 </head>
 
 <body>
 
 
-     <button class="dark-button">Dark theme</button>
+     <button class="dark-button">Change theme</button>
     <div class="container">
 
     <h1>Travel</h1>
@@ -160,5 +170,21 @@ div {
     <footer>
         Coded by <a href="https://www.carvalhoandrade.com/">Luciana Carvalho</a>💗
     </footer>
+    <script>
+        function changeTheme() {
+            let body = document.querySelector("body");
+            if (body.classList.contains("dark")) {
+                body.classList.remove("dark");
+            }
+            else {
+                 body.classList.add("dark");
+
+            }
+           
+        }
+        let themeButton = document.querySelector(".dark-button");
+        themeButton.addEventListener("click", changeTheme);
+    </script>
 </body>
+
 </html>

@@ -37,14 +37,15 @@ div {
     }
 
  .dark-button {
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         display: block;
         margin: 0 auto;
         border: 1px solid #27296d;
         background:#27296d ;
         color: white;
-        font-size: 10px;
-        border-radius: 4px;
-        padding: 10px;
+        font-size: 12px;
+        border-radius: 10px;
+        padding: 15px;
         transition: all 150ms ease-in-out;
     
     }
@@ -56,9 +57,10 @@ div {
 
     }
 .container {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     max-width: 900px;
-     background: #cadefc ;  
- display: block;
+    background: #cadefc ;  
+    display: block;
     margin: 20px auto;
     border-radius: 10px;
     padding: 20px;
@@ -74,6 +76,48 @@ div {
     filter: contrast(88%);
  transform: scale(1.2);
 }
+.korea {transition: all 150ms ease-in-out;
+}
+
+.korea:hover { filter: contrast(88%);
+ transform: translatex(-50px) scale(1.2);
+
+}
+.japan {transition: all 150ms ease-in-out;
+}
+
+.japan:hover { filter: contrast(88%);
+ transform: translatex(-50px) scale(1.2);
+
+}
+.greece {transition: all 150ms ease-in-out;
+}
+
+.greece:hover { filter: contrast(88%);
+ transform: translatex(-50px) scale(1.2);
+
+}
+.egypt {transition: all 150ms ease-in-out;
+}
+
+.egypt:hover { filter: contrast(88%);
+ transform: translatex(-50px) scale(1.2);
+
+}
+.italy {transition: all 150ms ease-in-out;
+}
+
+.italy:hover { filter: contrast(88%);
+ transform: translatex(-50px) scale(1.2);
+
+}
+.patagonia {transition: all 150ms ease-in-out;
+}
+
+.patagonia:hover { filter: contrast(88%);
+ transform: translatex(-50px) scale(1.2);
+
+}
 .grid {
     margin: 15px 0;
     display: grid;
@@ -87,12 +131,33 @@ div {
 .grid-lisbon {
     margin: 15px 0;
     display: grid;
-    grid-template-columns: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
 }
 .grid-lisbon img {
     width: 100%;
     border-radius: 8px;
+}
+.portugal {transition: all 150ms ease-in-out;
+}
+
+.portugal:hover { filter: contrast(88%);
+ transform: translatey(50px) scale(1.2);
+
+}
+.brazil {transition: all 150ms ease-in-out;
+}
+
+.brazil:hover { filter: contrast(88%);
+ transform: translatey(50px) scale(1.2);
+
+}
+.spain {transition: all 150ms ease-in-out;
+}
+
+.spain:hover { filter: contrast(88%);
+ transform: translatey(50px) scale(1.2);
+
 }
 .dark {
    background-image: url("airplaneblack.jpg") ;
@@ -115,14 +180,13 @@ div {
      <button class="dark-button">Change theme</button>
     <div class="container">
 
-    <h1>Travel</h1>
-    <h2>My favorite hobby</h2>
+    <h1>Travel✈️</h1>
+    <h2>My favorite hobby ❤️
+  </h2>
     <p>
- 1. “Jobs fill your pockets, adventures fill your soul.” 
-2. “Remember that happiness is a way of travel, not a destination.”
-3. “The world is a book and those who do not travel read only one page.”
-4. “Travel is the only thing you buy that makes you richer.”  
-5. "Travel is my therapy."
+1. “Jobs fill your pockets, adventures fill your soul.” 
+2. “Travel is the only thing you buy that makes you richer.”  
+3. “Travel is my therapy.” 
     </p>
     <img src="collect.jpg" alt="" height= "200" class="intro-picture" >
     <br/>
@@ -130,31 +194,38 @@ div {
      <h3>Places I want to travel</h3>
     <div class="grid">
    
-    <div class="korea">Korea
+    <div class="korea">South Korea-Seoul
     <img src="Korea.jpg" alt="" height="200"></div>
 
-    <div class="tokyo">Tokyo
+    <div class="japan">Japan-Tokyo
     <img src="Tokyo.jpg" alt="" height="200"></div>
     
-    <div class="atenas">Atenas
-    <img src="Atenas.jpg" alt="" height="200"></div>
+    <div class="greece">Greece-Athens
+    <img src="athens.jpg" alt="" height="200"></div>
     
-    <div class="egypt">Egipt
-    <img src="Egipt.jpg" alt="" height="200"></div>
+    <div class="egypt">Egipt-Cairo
+    <img src="Egypt.jpg" alt="" height="200"></div>
     
-    <div class="italy">Italy
+    <div class="italy">Italy-Tuscany
     <img src="Italy.jpg" alt="" height="200"></div>
     
-    <div class="patagonia">Patagonia
+    <div class="patagonia">Argentina-Patagonia
     <img src="Patagonia.jpg" alt="" height="200"></div>
 </div>
 
     <h3>My favorite destinations</h3>
-    
-    <div class="lisbon">Lisbon
+    <div class="grid-lisbon">
+    <div class="portugal">Portugal-Lisbon and Bobal
     <img src="ponte.jpg" alt="" height="200"></div>
     
-    <br>
+    <div class="brazil">Brazil- Amazon forest
+    <img src="Amazon.jpg" alt="" height="200"></div>
+    
+     <div class="spain">Spain- Granada
+    <img src="granada.jpg" alt="" height="200"></div>
+    
+    
+    </div>
     </div>
     <footer>
         Coded by <a href="https://www.carvalhoandrade.com/">Luciana Carvalho</a>💗
